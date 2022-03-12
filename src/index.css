@@ -19,3 +19,8 @@ code {
 .container {
   color: white;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
