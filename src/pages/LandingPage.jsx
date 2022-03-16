@@ -1,8 +1,15 @@
-import React from 'react'
-import MoviesGrid from '../components/MoviesGrid'
+import React from "react";
+import Search from "../components/Search";
+import MoviesGrid from "../components/MoviesGrid";
 
 const LandingPage = () => {
-  return <MoviesGrid />
-}
+  return (
+    <div>
+      <Search />
+      <br></br>
+      <MoviesGrid />
+    </div>
+  );
+};
 
-export default LandingPage
+export default LandingPage;
